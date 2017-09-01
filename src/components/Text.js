@@ -1,11 +1,11 @@
 /**
  * https://github.com/facebook/react-native/blob/master/Libraries/Text/Text.js
  */
-import React from 'react';
+import createReactClass from 'create-react-class';
 import styleSheetPropType from '../propTypes/StyleSheetPropType';
 import TextStylePropTypes from '../propTypes/TextStylePropTypes';
 import NativeMethodsMixin from '../mixins/NativeMethodsMixin';
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
 const stylePropType = styleSheetPropType(TextStylePropTypes);
 

@@ -1,8 +1,8 @@
 /**
  * https://github.com/facebook/react-native/blob/master/Libraries/Components/Touchable/TouchableWithoutFeedback.js
  */
-import React from 'react';
-import PropTypes from 'prop-types'
+import createReactClass from 'create-react-class';
+import PropTypes from 'prop-types';
 import EdgeInsetsPropType from '../propTypes/EdgeInsetsPropType';
 import View from './View';
 

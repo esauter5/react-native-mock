@@ -1,7 +1,7 @@
 /**
  * https://github.com/facebook/react-native/blob/master/Libraries/Components/View/View.js
  */
-import React from 'react';
+import createReactClass from 'create-react-class';
 import ViewAccessibility from './ViewAccessibility';
 import NativeMethodsMixin from '../mixins/NativeMethodsMixin';
 import ViewPropTypes from '../propTypes/ViewPropTypes';

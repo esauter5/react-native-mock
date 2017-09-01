@@ -1,5 +1,5 @@
-import React from 'react';
-import PropTypes from 'prop-types'
+import createReactClass from 'create-react-class';
+import PropTypes from 'prop-types';
 import createMockComponent from './createMockComponent';
 import View from './View';
 

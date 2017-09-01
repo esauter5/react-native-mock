@@ -1,11 +1,12 @@
 import React from 'react';
+import createReactClass from 'create-react-class';
 import TextInputState from '../api/TextInputState';
 import TimerMixin from 'react-timer-mixin';
 import NativeMethodsMixin from '../mixins/NativeMethodsMixin';
 import View from './View';
 import Text from './Text';
 
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
 const TextInput = createReactClass({
   propTypes: {

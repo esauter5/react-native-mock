@@ -1,6 +1,6 @@
-import React from 'react';
+import createReactClass from 'create-react-class';
 import createMockComponent from './createMockComponent';
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
 const Picker = createReactClass({
   propTypes: {
