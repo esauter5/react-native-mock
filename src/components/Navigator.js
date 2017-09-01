@@ -24,7 +24,7 @@ const NavigatorSceneConfigs = {
   VerticalDownSwipeJump: NavigatorSceneConfigType
 };
 
-const Navigator = React.createClass({
+const Navigator = createReactClass({
   propTypes: {
     /**
      * Optional function that allows configuration about scene animations and

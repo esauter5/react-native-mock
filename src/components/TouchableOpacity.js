@@ -6,7 +6,7 @@ import PropTypes from 'prop-types'
 
 import TouchableWithoutFeedback from './TouchableWithoutFeedback';
 
-const TouchableOpacity = React.createClass({
+const TouchableOpacity = createReactClass({
   propTypes: {
     ...TouchableWithoutFeedback.propTypes,
 

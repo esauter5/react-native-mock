@@ -24,7 +24,7 @@ VerticalUpSwipeJump:NavigatorSceneConfigType,
 VerticalDownSwipeJump:NavigatorSceneConfigType};
 
 
-var Navigator=_react2['default'].createClass({displayName:'Navigator',
+var Navigator=createReactClass({displayName:'Navigator',
 propTypes:{
 /**
      * Optional function that allows configuration about scene animations and
