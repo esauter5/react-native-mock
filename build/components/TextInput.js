@@ -7,7 +7,7 @@ var _Text=require('./Text');var _Text2=_interopRequireDefault(_Text);
 
 var _propTypes=require('prop-types');var _propTypes2=_interopRequireDefault(_propTypes);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{'default':obj};}
 
-var TextInput=_react2['default'].createClass({displayName:'TextInput',
+var TextInput=createReactClass({displayName:'TextInput',
 propTypes:_extends({},
 _View2['default'].propTypes,{
 /**

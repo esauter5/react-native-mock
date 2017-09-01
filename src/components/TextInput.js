@@ -7,7 +7,7 @@ import Text from './Text';
 
 import PropTypes from 'prop-types'
 
-const TextInput = React.createClass({
+const TextInput = createReactClass({
   propTypes: {
     ...View.propTypes,
     /**

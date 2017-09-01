@@ -12,7 +12,7 @@ import PropTypes from 'prop-types'
 const SCROLLVIEW = 'ScrollView';
 const INNERVIEW = 'InnerScrollView';
 
-const ScrollView = React.createClass({
+const ScrollView = createReactClass({
   propTypes: {
     ...View.propTypes,
     /**

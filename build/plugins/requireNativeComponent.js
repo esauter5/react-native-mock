@@ -4,7 +4,7 @@
 var _react=require('react');var _react2=_interopRequireDefault(_react);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{'default':obj};}
 
 function requireNativeComponent(viewName,componentInterface,extraConfig){
-return _react2['default'].createClass({
+return createReactClass({
 displayName:viewName,
 render:function(){function render(){
 return null;

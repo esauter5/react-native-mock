@@ -10,7 +10,7 @@ var _ImageResizeMode=require('../propTypes/ImageResizeMode');var _ImageResizeMod
 
 var _propTypes=require('prop-types');var _propTypes2=_interopRequireDefault(_propTypes);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{'default':obj};}
 
-var Image=_react2['default'].createClass({displayName:'Image',
+var Image=createReactClass({displayName:'Image',
 propTypes:{
 style:(0,_StyleSheetPropType2['default'])(_ImageStylePropTypes2['default']),
 /**

@@ -10,7 +10,7 @@ var _ColorPropType=require('../propTypes/ColorPropType');var _ColorPropType2=_in
 var ReactPropTypes=PropTypes;
 var DrawerConsts=_UIManager2['default'].AndroidDrawerLayout.Constants;
 
-var DrawerLayoutAndroid=_react2['default'].createClass({displayName:'DrawerLayoutAndroid',
+var DrawerLayoutAndroid=createReactClass({displayName:'DrawerLayoutAndroid',
 
 propTypes:_extends({},
 _View2['default'].propTypes,{

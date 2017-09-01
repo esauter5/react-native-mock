@@ -7,7 +7,7 @@ import View from './View';
 
 import PropTypes from 'prop-types'
 
-const ActivityIndicatorIOS = React.createClass({
+const ActivityIndicatorIOS = createReactClass({
   propTypes: {
     ...View.propTypes,
     /**

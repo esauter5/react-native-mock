@@ -4,7 +4,7 @@
 import React from 'react';
 
 function requireNativeComponent(viewName, componentInterface, extraConfig) {
-  return React.createClass({
+  return createReactClass({
     displayName: viewName,
     render() {
       return null;

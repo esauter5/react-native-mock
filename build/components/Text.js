@@ -9,7 +9,7 @@ var _propTypes=require('prop-types');var _propTypes2=_interopRequireDefault(_pro
 
 var stylePropType=(0,_StyleSheetPropType2['default'])(_TextStylePropTypes2['default']);/**
  * https://github.com/facebook/react-native/blob/master/Libraries/Text/Text.js
- */var Text=_react2['default'].createClass({displayName:'Text',
+ */var Text=createReactClass({displayName:'Text',
 propTypes:{
 /**
      * Used to truncate the text with an ellipsis after computing the text

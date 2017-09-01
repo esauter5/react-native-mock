@@ -19,7 +19,7 @@ other:_WebViewManager2['default'].NavigationType.Other};
 
 var JSNavigationScheme=_WebViewManager2['default'].JSNavigationScheme;
 
-var WebView=_react2['default'].createClass({displayName:'WebView',
+var WebView=createReactClass({displayName:'WebView',
 propTypes:_extends({},
 _View2['default'].propTypes,{
 url:_propTypes2['default'].string,

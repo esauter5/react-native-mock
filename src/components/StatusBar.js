@@ -11,7 +11,7 @@ let _hidden = false;
 let _networkActivityIndicatorVisible = false;
 let _translucent = false;
 
-const StatusBar = React.createClass({
+const StatusBar = createReactClass({
   propTypes: {
     animated: PropTypes.bool,
     barStyle: PropTypes.oneOf(['default', 'light-content']),

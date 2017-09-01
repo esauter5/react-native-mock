@@ -7,7 +7,7 @@ var _View=require('./View');var _View2=_interopRequireDefault(_View);
 
 var _propTypes=require('prop-types');var _propTypes2=_interopRequireDefault(_propTypes);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{'default':obj};}
 
-var ActivityIndicatorIOS=_react2['default'].createClass({displayName:'ActivityIndicatorIOS',
+var ActivityIndicatorIOS=createReactClass({displayName:'ActivityIndicatorIOS',
 propTypes:_extends({},
 _View2['default'].propTypes,{
 /**

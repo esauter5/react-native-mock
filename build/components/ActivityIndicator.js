@@ -8,7 +8,7 @@ var _ColorPropType=require('../propTypes/ColorPropType');var _ColorPropType2=_in
 
 var _propTypes=require('prop-types');var _propTypes2=_interopRequireDefault(_propTypes);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{'default':obj};}
 
-var ActivityIndicator=_react2['default'].createClass({displayName:'ActivityIndicator',
+var ActivityIndicator=createReactClass({displayName:'ActivityIndicator',
 propTypes:_extends({},
 _View2['default'].propTypes,{
 /**

@@ -12,7 +12,7 @@ var _propTypes=require('prop-types');var _propTypes2=_interopRequireDefault(_pro
 var SCROLLVIEW='ScrollView';
 var INNERVIEW='InnerScrollView';
 
-var ScrollView=_react2['default'].createClass({displayName:'ScrollView',
+var ScrollView=createReactClass({displayName:'ScrollView',
 propTypes:_extends({},
 _View2['default'].propTypes,{
 /**

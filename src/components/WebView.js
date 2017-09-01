@@ -19,7 +19,7 @@ const NavigationType = {
 
 const JSNavigationScheme = WebViewManager.JSNavigationScheme;
 
-const WebView = React.createClass({
+const WebView = createReactClass({
   propTypes: {
     ...View.propTypes,
     url: PropTypes.string,

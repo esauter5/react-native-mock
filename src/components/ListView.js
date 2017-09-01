@@ -8,7 +8,7 @@ import PropTypes from 'prop-types'
 const SCROLLVIEW_REF = 'listviewscroll';
 
 
-const ListView = React.createClass({
+const ListView = createReactClass({
   propTypes: {
     ...ScrollView.propTypes,
 

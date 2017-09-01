@@ -20,7 +20,7 @@ AccessibilityTraits:AccessibilityTraits,
 forceTouchAvailable:forceTouchAvailable};
 
 
-var View=_react2['default'].createClass({displayName:'View',
+var View=createReactClass({displayName:'View',
 propTypes:_ViewPropTypes2['default'],
 
 mixins:[_NativeMethodsMixin2['default']],

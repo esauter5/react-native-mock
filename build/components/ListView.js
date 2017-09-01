@@ -8,7 +8,7 @@ var _propTypes=require('prop-types');var _propTypes2=_interopRequireDefault(_pro
 var SCROLLVIEW_REF='listviewscroll';
 
 
-var ListView=_react2['default'].createClass({displayName:'ListView',
+var ListView=createReactClass({displayName:'ListView',
 propTypes:_extends({},
 _ScrollView2['default'].propTypes,{
 

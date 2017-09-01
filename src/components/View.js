@@ -20,7 +20,7 @@ const statics = {
   forceTouchAvailable,
 };
 
-const View = React.createClass({
+const View = createReactClass({
   propTypes: ViewPropTypes,
 
   mixins: [NativeMethodsMixin],

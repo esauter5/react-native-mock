@@ -11,7 +11,7 @@ var _backgroundColor='';/**
 var _networkActivityIndicatorVisible=false;
 var _translucent=false;
 
-var StatusBar=_react2['default'].createClass({displayName:'StatusBar',
+var StatusBar=createReactClass({displayName:'StatusBar',
 propTypes:{
 animated:_propTypes2['default'].bool,
 barStyle:_propTypes2['default'].oneOf(['default','light-content']),
