@@ -1,14 +1,14 @@
 var _extends=Object.assign||function(target){for(var i=1;i<arguments.length;i++){var source=arguments[i];for(var key in source){if(Object.prototype.hasOwnProperty.call(source,key)){target[key]=source[key];}}}return target;};/**
  * https://github.com/facebook/react-native/blob/master/Libraries/Components/ActivityIndicator/ActivityIndicator.js
  */
-var _react=require('react');var _react2=_interopRequireDefault(_react);
+var _createReactClass=require('create-react-class');var _createReactClass2=_interopRequireDefault(_createReactClass);
 var _NativeMethodsMixin=require('../mixins/NativeMethodsMixin');var _NativeMethodsMixin2=_interopRequireDefault(_NativeMethodsMixin);
 var _View=require('./View');var _View2=_interopRequireDefault(_View);
 var _ColorPropType=require('../propTypes/ColorPropType');var _ColorPropType2=_interopRequireDefault(_ColorPropType);
 
 var _propTypes=require('prop-types');var _propTypes2=_interopRequireDefault(_propTypes);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{'default':obj};}
 
-var ActivityIndicator=createReactClass({displayName:'ActivityIndicator',
+var ActivityIndicator=(0,_createReactClass2['default'])({displayName:'ActivityIndicator',
 propTypes:_extends({},
 _View2['default'].propTypes,{
 /**

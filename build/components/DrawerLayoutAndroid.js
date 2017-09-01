@@ -1,16 +1,17 @@
 var _extends=Object.assign||function(target){for(var i=1;i<arguments.length;i++){var source=arguments[i];for(var key in source){if(Object.prototype.hasOwnProperty.call(source,key)){target[key]=source[key];}}}return target;};/**
  *https://github.com/facebook/react-native/blob/master/Libraries/Components/DrawerAndroid/DrawerLayoutAndroid.android.js
  */
-var _react=require('react');var _react2=_interopRequireDefault(_react);
+var _createReactClass=require('create-react-class');var _createReactClass2=_interopRequireDefault(_createReactClass);
 var _NativeMethodsMixin=require('../mixins/NativeMethodsMixin');var _NativeMethodsMixin2=_interopRequireDefault(_NativeMethodsMixin);
 var _View=require('./View');var _View2=_interopRequireDefault(_View);
 var _UIManager=require('../NativeModules/UIManager');var _UIManager2=_interopRequireDefault(_UIManager);
-var _ColorPropType=require('../propTypes/ColorPropType');var _ColorPropType2=_interopRequireDefault(_ColorPropType);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{'default':obj};}
+var _ColorPropType=require('../propTypes/ColorPropType');var _ColorPropType2=_interopRequireDefault(_ColorPropType);
 
-var ReactPropTypes=PropTypes;
+var _propTypes=require('prop-types');var _propTypes2=_interopRequireDefault(_propTypes);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{'default':obj};}
+var ReactPropTypes=_propTypes2['default'];
 var DrawerConsts=_UIManager2['default'].AndroidDrawerLayout.Constants;
 
-var DrawerLayoutAndroid=createReactClass({displayName:'DrawerLayoutAndroid',
+var DrawerLayoutAndroid=(0,_createReactClass2['default'])({displayName:'DrawerLayoutAndroid',
 
 propTypes:_extends({},
 _View2['default'].propTypes,{

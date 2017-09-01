@@ -1,8 +1,8 @@
-var _react=require('react');var _react2=_interopRequireDefault(_react);
+var _createReactClass=require('create-react-class');var _createReactClass2=_interopRequireDefault(_createReactClass);
 var _createMockComponent=require('./createMockComponent');var _createMockComponent2=_interopRequireDefault(_createMockComponent);
 var _propTypes=require('prop-types');var _propTypes2=_interopRequireDefault(_propTypes);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{'default':obj};}
 
-var TabBarIOS=createReactClass({displayName:'TabBarIOS',
+var TabBarIOS=(0,_createReactClass2['default'])({displayName:'TabBarIOS',
 propTypes:{
 children:_propTypes2['default'].node},
 

@@ -1,10 +1,10 @@
 
 
 
-var _react=require('react');var _react2=_interopRequireDefault(_react);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{'default':obj};}
+var _createReactClass=require('create-react-class');var _createReactClass2=_interopRequireDefault(_createReactClass);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{'default':obj};}
 
 function requireNativeComponent(viewName,componentInterface,extraConfig){
-return createReactClass({
+return(0,_createReactClass2['default'])({
 displayName:viewName,
 render:function(){function render(){
 return null;

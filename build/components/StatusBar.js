@@ -1,7 +1,7 @@
 
 
 
-var _react=require('react');var _react2=_interopRequireDefault(_react);
+var _createReactClass=require('create-react-class');var _createReactClass2=_interopRequireDefault(_createReactClass);
 var _ColorPropType=require('../propTypes/ColorPropType');var _ColorPropType2=_interopRequireDefault(_ColorPropType);
 var _propTypes=require('prop-types');var _propTypes2=_interopRequireDefault(_propTypes);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{'default':obj};}
 
@@ -11,7 +11,7 @@ var _backgroundColor='';/**
 var _networkActivityIndicatorVisible=false;
 var _translucent=false;
 
-var StatusBar=createReactClass({displayName:'StatusBar',
+var StatusBar=(0,_createReactClass2['default'])({displayName:'StatusBar',
 propTypes:{
 animated:_propTypes2['default'].bool,
 barStyle:_propTypes2['default'].oneOf(['default','light-content']),

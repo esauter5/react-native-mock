@@ -1,7 +1,7 @@
 
 
 
-var _react=require('react');var _react2=_interopRequireDefault(_react);
+var _createReactClass=require('create-react-class');var _createReactClass2=_interopRequireDefault(_createReactClass);
 var _StyleSheetPropType=require('../propTypes/StyleSheetPropType');var _StyleSheetPropType2=_interopRequireDefault(_StyleSheetPropType);
 var _TextStylePropTypes=require('../propTypes/TextStylePropTypes');var _TextStylePropTypes2=_interopRequireDefault(_TextStylePropTypes);
 var _NativeMethodsMixin=require('../mixins/NativeMethodsMixin');var _NativeMethodsMixin2=_interopRequireDefault(_NativeMethodsMixin);
@@ -9,7 +9,7 @@ var _propTypes=require('prop-types');var _propTypes2=_interopRequireDefault(_pro
 
 var stylePropType=(0,_StyleSheetPropType2['default'])(_TextStylePropTypes2['default']);/**
  * https://github.com/facebook/react-native/blob/master/Libraries/Text/Text.js
- */var Text=createReactClass({displayName:'Text',
+ */var Text=(0,_createReactClass2['default'])({displayName:'Text',
 propTypes:{
 /**
      * Used to truncate the text with an ellipsis after computing the text
