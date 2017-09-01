@@ -109,15 +109,15 @@ ViewPropTypes:require('./propTypes/ViewPropTypes')};
 var ReactNativeAddons={
 // LinkedStateMixin: require('react-addons-linked-state-mixin') deprecated,
 Perf:require('react-addons-perf'),
-PureRenderMixin:require('react-addons-pure-render-mixin'),
+//PureRenderMixin: require('react-addons-pure-render-mixin'), deprecated
 TestModule:require('./NativeModules/TestModule'),
-TestUtils:require('react-addons-test-utils'),
+TestUtils:require('react-dom/test-utils')
 // TODO(lmr): not sure where to find this
 // batchedUpdates: require('ReactUpdates').batchedUpdates, deprecated
 // cloneWithProps: require('react-addons-clone-with-props'), deprecated
-createFragment:require('react-addons-create-fragment'),
-update:require('react-addons-update')};
-
+//createFragment: require('react-addons-create-fragment'), deprecated
+// update: require('react-addons-update'), deprecated
+};
 
 _extends(ReactNative,_react2['default'],{addons:ReactNativeAddons});
 
