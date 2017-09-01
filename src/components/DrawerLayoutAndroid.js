@@ -7,7 +7,7 @@ import View from './View';
 import UIManager from '../NativeModules/UIManager';
 import ColorPropType from '../propTypes/ColorPropType';
 
-const ReactPropTypes = React.PropTypes;
+const ReactPropTypes = PropTypes;
 const DrawerConsts = UIManager.AndroidDrawerLayout.Constants;
 
 const DrawerLayoutAndroid = React.createClass({
